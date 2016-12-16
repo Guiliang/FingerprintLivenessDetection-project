@@ -1,6 +1,7 @@
 # Fingerprint Liveness Detection Project
 ## 1. Extract the features
 + Data set contains the fingerprint images from "Liveness Detection Competitions 2015"  [Available Here](http://livdet.org/registration.php).
++ Fo the image augmentation, please refer to: [augment_data.py](augment_data.py)
 + Three extractor we applied:
   + Binary Statistical Image Filter(BSIF), in folder [BSIF_feature](BSIF_feature)
   + Local Phase Quantization(LPQ), in folder [LPQ_feature](LPQ_feature)
@@ -13,6 +14,13 @@
   + The result images are in [svm_2015_result](./SVM_classifiy/svm_2015_result)
 
 ## 3. Neural Network using Keras in python
++ Simple Layer Network to classify the features:
+  + BSIF Features: [2015DigPer_test_BSIF.py](./NeuralNetwork/2015DigPer_test_BSIF.py)
+  + LPQ Features: [2015DigPer_test_LPQ.py](./NeuralNetwork/2015DigPer_test_LPQ.py)
+  + WLD Features: [2015DigPer_test_WLD.py](./NeuralNetwork/2015DigPer_test_WLD.py)
+  + Mix Features: [2015DigPer_test_MixFeat.py](./NeuralNetwork/2015DigPer_test_MixFeat.py)
+  + Convnet Features: [convnet_nn.py](./NeuralNetwork/convnet_nn.py)
+  
 + VGG16 model are trained using [train_vgg16.py](./train_vgg16.py)
 + VGG16+vector multibranch models are trained using [train_multi.py](./train_multi.py)
 + their data generator functions can be found in [gen.py](./gen.py)
