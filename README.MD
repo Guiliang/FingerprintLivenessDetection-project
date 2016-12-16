@@ -6,6 +6,7 @@
   + Binary Statistical Image Filter(BSIF), in folder [BSIF_feature](BSIF_feature)
   + Local Phase Quantization(LPQ), in folder [LPQ_feature](LPQ_feature)
   + Weber Local Descriptor(WLD), in folder [WLD_feature](WLD_feature)
+  + Convnet-Features(CNN), in (extract_features.py)[./convnet-features/extract_features.py]
   
 ## 2. SVM using sklearn in python
 + Support Vector Machine(SVM) in [SVM_classifiy](SVM_classifiy)
