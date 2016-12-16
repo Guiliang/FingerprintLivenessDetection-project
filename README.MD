@@ -21,8 +21,7 @@
   + LPQ Features: [2015DigPer_test_LPQ.py](./NeuralNetwork/2015DigPer_test_LPQ.py)
   + WLD Features: [2015DigPer_test_WLD.py](./NeuralNetwork/2015DigPer_test_WLD.py)
   + Mix Features: [2015DigPer_test_MixFeat.py](./NeuralNetwork/2015DigPer_test_MixFeat.py)
-  + Convnet Features: [convnet_nn.py](./NeuralNetwork/convnet_nn.py)
-  
+  + Convnet Features: [convnet_nn.py](./NeuralNetwork/convnet_nn.py)  
 + VGG16 model are trained using [train_vgg16.py](./train_vgg16.py)
 + VGG16+vector multibranch models are trained using [train_multi.py](./train_multi.py)
 + their data generator functions can be found in [gen.py](./gen.py)
