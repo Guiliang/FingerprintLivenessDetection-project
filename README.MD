@@ -6,12 +6,13 @@
   + Binary Statistical Image Filter(BSIF), in folder [BSIF_feature](BSIF_feature)
   + Local Phase Quantization(LPQ), in folder [LPQ_feature](LPQ_feature)
   + Weber Local Descriptor(WLD), in folder [WLD_feature](WLD_feature)
-  + Convnet-Features(CNN), in (extract_features.py)[./convnet-features/extract_features.py]
+  + Convnet-Features(CNN), in [extract_features.py](./convnet-features/extract_features.py)
   
 ## 2. SVM using sklearn in python
 + Support Vector Machine(SVM) in [SVM_classifiy](SVM_classifiy)
   + [svm_fingerpint_liveness_detection_foldval.py](./SVM_classifiy/svm_fingerpint_liveness_detection_foldval.py) is for Cross Validation
   + [svm_fingerprint_liveness_detection_2015.py](./SVM_classifiy/svm_fingerprint_liveness_detection_2015.py) is for SVM test, draw the ROC curve and calculate the AUC values.
+  + [convnet_svm.py](./SVM_classifiy/convnet_svm.py) is for the CNN feature
   + The result images are in [svm_2015_result](./SVM_classifiy/svm_2015_result)
 
 ## 3. Neural Network using Keras in python
