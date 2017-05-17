@@ -1,6 +1,6 @@
 # Fingerprint Liveness Detection Project
 
-你好In this project, we explored two different methods (SVM & Neural Network) for fingerprint liveness detection.
+In this project, we explored two different methods (SVM & Neural Network) for fingerprint liveness detection.
 
 ## Feature extraction
 + We use the fingerprint images from "Liveness Detection Competitions 2015" [Available Here](http://livdet.org/registration.php).
