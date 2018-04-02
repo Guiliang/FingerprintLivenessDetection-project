@@ -1,10 +1,10 @@
 # Fingerprint Liveness Detection Project
 
-In this project, we explored two different methods (SVM & Neural Network) for fingerprint liveness detection.
+Fingerprint liveness detection detects spoofed fingerprints and can be applied to prevent against spoofing attacks. In this project, we explore two different methods (SVM & Neural Network) for fingerprint liveness detection.
 
 ## Feature extraction
-+ We use the fingerprint images from "Liveness Detection Competitions 2015" [Available Here](http://livdet.org/registration.php).
-+ For the image augmentation, please refer to: [augment_data.py](augment_data.py)
++ **Dataset**: We use the fingerprint images from "Liveness Detection Competitions 2015" [Available Here](http://livdet.org/registration.php).
++ **Image augmentation:** please refer to: [augment_data.py](augment_data.py)
 + Four extractors we applied:
   + Binary Statistical Image Filter(BSIF), in folder [BSIF_feature](BSIF_feature)
   + Local Phase Quantization(LPQ), in folder [LPQ_feature](LPQ_feature)
